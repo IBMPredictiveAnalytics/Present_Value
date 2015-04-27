@@ -1,14 +1,11 @@
-#Plot Heatmaps
+#Present Value
 ###IBM SPSS Modeler Predictive Extensions
 
-This SPSS Modeler ‘output’ node allows you to plot spatial data on a density heatmap. Simply install the node, select the coordinate’s fields and choose the visual parameters that suit you best. Then start visualizing simply and easily your data directly in IBM SPSS Modeler.
+This node enables you to compute the present value of cash-flow by specifying the desired year and annual rate. 
 
-![Map](https://github.com/IBMPredictiveAnalytics/Plot-Heatmaps/blob/master/Screenshot/Illustration1.png?raw=true)
-![Map](https://github.com/IBMPredictiveAnalytics/Plot-Heatmaps/blob/master/Screenshot/Illustration2.png?raw=true)
+![Map](https://github.com/IBMPredictiveAnalytics/Present-Value/blob/master/Screenshot/Illustration1.png?raw=true)
 
 
-Check some live screenshots here:
-- [Crime in Chicago][10]
 
 ---
 Requirements
@@ -31,8 +28,7 @@ Installation intructions
 R Packages used
 ----
 The R packages will be installed the first time the node is used as long as an Internet connection is available.
-- [ggmap][4]
-- [ggplot2][11]
+- [stringr][4]
 
 ---
 Documentation and samples
@@ -56,10 +52,8 @@ Contributors
 
 [1]: http://www.apache.org/licenses/LICENSE-2.0.html
 [2]:https://developer.ibm.com/predictiveanalytics/downloads/#tab2
-[3]:https://github.com/IBMPredictiveAnalytics/Plot-Heatmaps/raw/master/Source%20code/plotHeatmaps.cfe
-[4]:http://cran.r-project.org/web/packages/ggmap/index.html
-[5]:https://github.com/IBMPredictiveAnalytics/Plot-Heatmaps/blob/master/Documentation/PlotHeatmap-SPSSModelerExtension.pdf
-[6]:https://github.com/IBMPredictiveAnalytics/Plot-Heatmaps/tree/master/Example
-[10]:https://github.com/IBMPredictiveAnalytics/Plot-Heatmaps/tree/master/Screenshot
-[11]:http://cran.r-project.org/web/packages/ggplot2/index.html
-[20]:https://www.youtube.com/watch?v=j1EeC4XSGdw
+[3]:https://github.com/IBMPredictiveAnalytics/Present-Value/raw/master/Source%20code/PresentValue.cfe
+[4]:http://cran.r-project.org/web/packages/stringr
+[5]:https://github.com/IBMPredictiveAnalytics/Present-Value/blob/master/Documentation/PresentValue-SPSSModelerExtension.pdf
+[6]:https://github.com/IBMPredictiveAnalytics/Present-Value/tree/master/Example
+[20]:https://www.youtube.com/watch?v=mq4zOGdO4Jw
